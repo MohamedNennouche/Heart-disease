@@ -36,7 +36,9 @@ On a fait un up-sampling des données de la classe minoritaire :
 |---      |:-:        |:-:         |
 |   No    |  292422   |   292422   |
 |   Yes   |  27373    |   120000   |
+
 Et on a eu les résultats suivant avec les même algorithmes :
+
 |   Algorithme choisi    |   Précision en test (%)|  F1 score (%) |
 |---      |:-:        |:-:        |
 |   Random Forrest              |   94.8    |   94.88   |
