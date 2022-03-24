@@ -31,8 +31,6 @@ As well as the following packages :
 |   Extremely randomized Tree   |   89.83   |   57.07   |
 |   AdaBoost                    |   91.69   |   56.65   |
 |   Gradient Tree Boosting      |   91.77   |   56.19   |
-|   KNN                         |   91.13   |   52.71   |
-|   SVM                         |   x   |   x   |
 
 ### After up-sampling the data
 We did an up-sampling of the data of the minority class : 
@@ -46,13 +44,13 @@ And we got the following results with the same algorithms:
 |   Algorithme choisi    |   Précision en test (%)|  F1 score (%) |
 |---      |:-:        |:-:        |
 |   Random Forrest              |   94.8    |   93.86   |
-|   Extremely randomized Tree   |   95.09   |   x   |
-|   AdaBoost                    |   78.62   |   x   |
-|   Gradient Tree Boosting      |   79.12   |   x   |
-|   KNN                         |   x   |   x   |
-|   SVM                         |   x   |   x   |
+|   Extremely randomized Tree   |   95.09   |   94.15   |
+|   AdaBoost                    |   78.62   |   71.63   |
+|   Gradient Tree Boosting      |   79.12   |   73.20   |
 ## Notes
 - The increase in data had a beneficial effect on the Random Forrest and the Extremely randomized Tree
 - The increase of the data had a negative effect on the two other algorithms 
+## Conclusion 
+In a case like this one where there is a big imbalance between classes, it is preferable to think of making a resampling of our data allowing us to balance the classes, it was noticed at the level of this project by improving greatly the performance.
 ## To do
 - Features selection
